@@ -1,0 +1,154 @@
+* {
+    font-family: sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    border: none;
+    background-color: #F5F6BB;
+    font-size: 13px;
+    height: fit-content;
+    bottom: 0.75rem;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.button:hover {
+    background-color: #ffe856;
+}
+
+input[type=email] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    background-color: #357CB7;
+    color: white;
+    font-size: 15px;
+    padding: 7px 10px 7px 10px;
+}
+
+/* Banner & Name */
+
+.banner {
+    filter: brightness(50%);
+}
+
+.name {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Navigation */
+
+.info {
+    font-size: 12px;
+}
+
+.nav-link {
+    border-right: 2px solid #ddd;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+i {
+    color: rgb(37, 171, 216);
+}
+
+/* Job Objective */
+
+.goal {
+    background-color: #eee;
+}
+
+/* Personal information */
+.per-info {
+    background-color: #ddd;
+}
+
+/* Job information */
+.job {
+    width: 90%;
+    grid-template-columns: repeat(3, 33%);
+    height: fit-content;
+}
+
+.job-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.experience-icon {
+    color: #aaa;
+}
+
+.now {
+    background-color: rgb(37, 171, 216);
+}
+
+/* Hobbies */
+.ic-border {
+    border: 2px solid rgb(37, 171, 216);
+}
+
+/* Span in Languages & Skills */
+.span-blue {
+    background-color: rgb(37, 171, 216);
+}
+
+.span-grey {
+    background-color: #ddd;
+}
+
+/* Certifications */
+.cert {
+    background-color: #eee;
+}
+
+.cert-info {
+    border-bottom: 2px solid #d6c08d;
+}
+
+.cert-web {
+    border-right: 2px solid #d6c08d;
+}
+
+/* Projects */
+
+table,
+tr,
+td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.pj-grid {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    row-gap: 0;
+}
+
+/* Footer */
+
+.footer-info {
+    border: none;
+}
+
+footer tr,
+td {
+    border: none;
+}

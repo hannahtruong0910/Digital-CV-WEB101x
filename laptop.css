@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+    .ic-border {
+        width: 60px;
+        height: 60px;
+    }
+
+    .ic-border i {
+        display: inline-block;
+        flex: 0 0 0 25%;
+    }
+
+    .icon {
+        width: fit-content;
+        padding-right: 0;
+    }
+
+    .ic-info {
+        width: fit-content;
+        display: inline-block;
+        padding: 0;
+        text-align: center !important;
+        font-size: 11px !important;
+        flex: 0 0 25%;
+        padding-right: 10px;
+        gap: 2rem;
+    }
+
+    .ic-info-music {
+        text-align: right !important;
+        padding-right: 8px;
+    }
+}

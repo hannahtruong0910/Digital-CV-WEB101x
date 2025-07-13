@@ -1,0 +1,236 @@
+@media (max-width: 576px) {
+
+    .name {
+        top: 100px;
+    }
+
+    .nav-link {
+        border: none;
+    }
+
+    .nav-div {
+        display: none;
+        border: none !important;
+    }
+
+    .nav-flex a {
+        text-align: left !important;
+    }
+
+    .goal {
+        padding-bottom: 50px;
+    }
+
+    .job {
+        grid-template-columns: 1fr;
+        margin: auto;
+        padding: auto;
+    }
+
+    .row.ps-3 {
+        display: flex !important;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .span-blue {
+        display: inline-block;
+        margin: 0;
+        flex: 0 0 32%;
+        height: 2px;
+    }
+
+    .span-grey {
+        display: inline-block;
+        margin: 0;
+        flex: 0 0 32%;
+        height: 2px;
+    }
+
+    .ic-border {
+        width: 60px;
+        height: 60px;
+    }
+
+    .ic-border i {
+        display: inline-block;
+        flex: 0 0 0 25%;
+    }
+
+    .icon {
+        width: fit-content;
+        padding-right: 0;
+    }
+
+    .ic-info {
+        width: fit-content;
+        display: inline-block;
+        padding: 0;
+        text-align: center !important;
+        font-size: 13px !important;
+        flex: 0 0 25%;
+        padding-right: 10px;
+    }
+
+    .ic-info-music {
+        text-align: right !important;
+        padding-right: 8px;
+    }
+
+    .experience {
+        width: fit-content !important;
+        display: flex !important;
+        flex: 1 1 50%;
+    }
+
+    .experience-icon {
+        font-size: 50px !important;
+        display: flex !important;
+        width: 30%;
+        justify-content: end;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .cert-info {
+        flex-direction: column !important;
+        padding-left: 0 !important;
+    }
+
+    .cert-info>.col-md-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        border-bottom: 2px solid #d6c08d;
+        margin-bottom: 1.5rem;
+    }
+
+    .cert-info>.col-md-6:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    /* For the single cert row beneath */
+    .ps-5>.col-md-6.row {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 1.5rem;
+    }
+
+    .ps-5>.col-md-6.row:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    /* Make the image bigger and centered on small screens */
+    .cert-img img,
+    .cert-img .img-fluid,
+    .ps-5 img.img-fluid {
+        max-width: 220px;
+        width: 80vw;
+        min-width: 160px;
+        height: auto;
+        display: block;
+        margin: 0 auto 1rem auto;
+    }
+
+    .cert-img,
+    .cert-img.cert-web,
+    .ps-5 .col-md-6.row {
+        flex-direction: row !important;
+        align-items: center;
+    }
+
+    .cert-h2 {
+        padding-left: 1rem !important;
+    }
+
+    .cert-dbi {
+        padding-left: 0 !important;
+    }
+
+    .cert-text {
+        padding-left: 2rem !important;
+    }
+
+    .cert-text1 {
+        padding-left: 1.3rem !important;
+    }
+
+    .cert-web {
+        padding-bottom: 3rem;
+    }
+
+    .row.gap-5,
+    .row.ps-5 {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-left: 0 !important;
+        gap: 0 !important;
+    }
+
+    .row.gap-5>.col-md,
+    .row.ps-5>.col-md {
+        width: 100% !important;
+        max-width: 95vw !important;
+        margin: 0 auto 2rem auto !important;
+        float: none !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row.gap-5 img.img-fluid,
+    .row.ps-5 img.img-fluid {
+        width: 90vw;
+        max-width: 360px;
+        height: auto;
+        margin-bottom: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .table {
+        width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Remove left paddings in table cells for mobile */
+    .table td,
+    .table th {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+
+    /* Stack row columns inside table rows vertically */
+    .table .row {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .table .col-md-3,
+    .table .col-md-9,
+    .table .col-md-2 {
+        width: 100%;
+        max-width: 100% !important;
+        margin-left: 15px;
+    }
+
+    /* Center the title row text */
+    .table .text-uppercase {
+        padding-left: 15px !important;
+        width: 100%;
+        display: block;
+    }
+
+    .footer {
+        display: none;
+    }
+}
