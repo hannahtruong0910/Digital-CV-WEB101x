@@ -115,7 +115,6 @@
         margin-bottom: 0;
     }
 
-    /* For the single cert row beneath */
     .ps-5>.col-md-6.row {
         width: 100% !important;
         max-width: 100% !important;
@@ -129,7 +128,6 @@
         margin-bottom: 0;
     }
 
-    /* Make the image bigger and centered on small screens */
     .cert-img img,
     .cert-img .img-fluid,
     .ps-5 img.img-fluid {
@@ -202,14 +200,12 @@
         margin-bottom: 0.5rem;
     }
 
-    /* Remove left paddings in table cells for mobile */
     .table td,
     .table th {
         padding-left: 0.75rem !important;
         padding-right: 0.75rem !important;
     }
 
-    /* Stack row columns inside table rows vertically */
     .table .row {
         flex-direction: column !important;
         align-items: flex-start !important;
@@ -223,7 +219,6 @@
         margin-left: 15px;
     }
 
-    /* Center the title row text */
     .table .text-uppercase {
         padding-left: 15px !important;
         width: 100%;

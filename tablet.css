@@ -114,7 +114,6 @@
         flex-direction: column !important;
     }
 
-    /* Make images big and visible */
     .cert-img img.img-fluid {
         max-width: 220px !important;
         width: 220px !important;
@@ -130,7 +129,6 @@
         padding: 0 !important;
     }
 
-    /* Description under the image, full width, centered text */
     .cert-text,
     .cert-text1 {
         width: 100%;
