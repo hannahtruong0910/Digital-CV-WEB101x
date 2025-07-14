@@ -1,7 +1,9 @@
 @media (max-width: 576px) {
 
-    button {
+    button i,
+    button span {
         width: fit-content !important;
+        display: inline-block !important;
     }
 
     .name {
