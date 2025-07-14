@@ -1,5 +1,9 @@
 @media (max-width: 576px) {
 
+    button {
+        width: fit-content !important;
+    }
+
     .name {
         top: 100px;
     }
