@@ -4,6 +4,8 @@
     button span {
         width: fit-content !important;
         display: inline-block !important;
+        text-decoration: none;
+        color: black;
     }
 
     .name {
