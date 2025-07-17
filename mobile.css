@@ -1,5 +1,11 @@
 @media (max-width: 576px) {
 
+    .hidden {
+        display: none;
+    }
+
+    /* Button */
+
     button i,
     button span {
         width: fit-content !important;
@@ -8,9 +14,13 @@
         color: black;
     }
 
+    /* Banner and Name */
+
     .name {
         top: 100px;
     }
+
+    /* Navbar */
 
     .nav-link {
         border: none;
@@ -25,9 +35,13 @@
         text-align: left !important;
     }
 
+    /* Job Objective & Personal Information */
+
     .goal {
         padding-bottom: 50px;
     }
+
+    /* Job Information */
 
     .job {
         grid-template-columns: 1fr;
@@ -40,6 +54,14 @@
         flex-wrap: nowrap;
         align-items: center;
     }
+
+    .experience {
+        width: fit-content !important;
+        display: flex !important;
+        flex: 1 1 50%;
+    }
+
+    /* Spans */
 
     .span-blue {
         display: inline-block;
@@ -54,6 +76,8 @@
         flex: 0 0 32%;
         height: 2px;
     }
+
+    /* Icons */
 
     .ic-border {
         width: 60px;
@@ -85,12 +109,6 @@
         padding-right: 8px;
     }
 
-    .experience {
-        width: fit-content !important;
-        display: flex !important;
-        flex: 1 1 50%;
-    }
-
     .experience-icon {
         font-size: 50px !important;
         display: flex !important;
@@ -98,9 +116,7 @@
         justify-content: end;
     }
 
-    .hidden {
-        display: none;
-    }
+    /* Certifications */
 
     .cert-info {
         flex-direction: column !important;
@@ -203,6 +219,8 @@
         margin-right: auto;
     }
 
+    /* Projects */
+
     .table {
         width: 100% !important;
         margin-bottom: 0.5rem;
@@ -232,6 +250,8 @@
         width: 100%;
         display: block;
     }
+
+    /* Footer */
 
     .footer {
         display: none;

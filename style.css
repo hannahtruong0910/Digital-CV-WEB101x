@@ -6,6 +6,8 @@
     display: none;
 }
 
+/* Button */
+
 .button {
     border: none;
     background-color: #F5F6BB;
@@ -20,6 +22,8 @@
 .button:hover {
     background-color: #ffe856;
 }
+
+/* Input */
 
 input[type=email] {
     border: 2px solid #ccc;
@@ -49,7 +53,7 @@ input[type=submit] {
     transform: translate(-50%, -50%);
 }
 
-/* Navigation */
+/* Navbar */
 
 .info {
     font-size: 12px;
@@ -74,11 +78,13 @@ i {
 }
 
 /* Personal information */
+
 .per-info {
     background-color: #ddd;
 }
 
 /* Job information */
+
 .job {
     width: 90%;
     grid-template-columns: repeat(3, 33%);
@@ -90,20 +96,22 @@ i {
     position: relative;
 }
 
-.experience-icon {
-    color: #aaa;
-}
-
 .now {
     background-color: rgb(37, 171, 216);
 }
 
-/* Hobbies */
+/* icons */
+
+.experience-icon {
+    color: #aaa;
+}
+
 .ic-border {
     border: 2px solid rgb(37, 171, 216);
 }
 
 /* Span in Languages & Skills */
+
 .span-blue {
     background-color: rgb(37, 171, 216);
 }
